@@ -17,7 +17,7 @@ export default function Card() {
   function handleClick(event) {
     const elementId = event.currentTarget.id;
     setIsClicked(!isClicked);
-    data.map((item) => {
+    data.forEach((item) => {
       if (item.id === elementId) {
         setFoundIt({
           title: item.title,
