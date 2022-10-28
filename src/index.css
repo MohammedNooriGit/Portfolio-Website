@@ -1,13 +1,142 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Top Section */
+
+.custom-shape-divider-top-1666574538 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.custom-shape-divider-top-1666574538 svg {
+  position: relative;
+  display: block;
+  width: calc(193% + 1.3px);
+  height: 240px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1666574538 .shape-fill {
+  fill: #0096ff;
+}
+
+/* Right Side */
+
+.custom-shape-divider-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 71%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-right svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 33.3px);
+  height: 73rem;
+}
+
+/* Top Left Blob */
+
+.top-left-blob {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Bottom Left Divider */
+
+.custom-shape-divider-bottom-left {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-left svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 252px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-left .shape-fill {
+  fill: #0096ff;
+}
+
+/* Education */
+
+.custom-shape-divider-top-1666871497 {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1666871497 svg {
+  position: relative;
+  display: block;
+  width: calc(226% + 1.3px);
+  height: 404px;
+}
+
+.custom-shape-divider-top-1666871497 .shape-fill {
+  fill: #0096ff;
+}
+
+/* Skills */
+.custom-shape-divider-top-skills {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-skills svg {
+  position: relative;
+  display: block;
+  width: calc(180% + 1.3px);
+  height: 228px;
+}
+
+.custom-shape-divider-top-skills .shape-fill {
+  fill: #5800ff;
+}
+
+/* Footer */
+
+.custom-shape-divider-bottom-1666887528 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1666887528 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 121px;
+}
+
+.custom-shape-divider-bottom-1666887528 .shape-fill {
+  fill: #5800ff;
 }
