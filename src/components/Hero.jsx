@@ -7,7 +7,7 @@ import Avatar from "./Avatar";
 
 export default function Hero() {
   return (
-    <div className="bg-first h-[800px] w-full">
+    <div className="bg-first dark:bg-dfirst h-[800px] w-full">
       <RightSideDivider />
       <Blob />
       <div className="container mx-auto">
@@ -28,7 +28,7 @@ export default function Hero() {
               </h1>
               <p className="text-3xl font-Poppins sm:text-6xl">
                 A{" "}
-                <span className="text-primary bg-swhite rounded-lg leading-[2] px-4">
+                <span className="text-primary dark:text-dfirst bg-swhite rounded-lg leading-[2] px-4">
                   Software Engineer
                 </span>
               </p>

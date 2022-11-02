@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <div className="shadow bg-first text-swhite font-Poppins w-full">
+    <div className="shadow bg-first dark:bg-dfirst text-swhite font-Poppins w-full">
       <div className="h-16 mx-auto pr-8 flex flex-row-reverse items-center relative z-[1] justify-between">
         <ul className="flex gap-5 sm:gap-9">
           <li>

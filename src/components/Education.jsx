@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export default function Education() {
   return (
-    <div className="relative min-h-[800px] w-full bg-first">
+    <div className="relative min-h-[800px] w-full bg-first dark:bg-dfirst">
       <TopCurve />
       <div className="container mx-auto relative px-4">
         <h1 className="text-center sm:text-right font-Poppins py-16 text-5xl uppercase font-bold relative text-swhite">

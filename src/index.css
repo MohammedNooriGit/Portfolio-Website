@@ -21,10 +21,6 @@
   transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1666574538 .shape-fill {
-  fill: #0096ff;
-}
-
 /* Right Side */
 
 .custom-shape-divider-right {
@@ -51,6 +47,9 @@
   top: 0;
 }
 
+.top-left-blob-dark {
+}
+
 /* Bottom Left Divider */
 
 .custom-shape-divider-bottom-left {
@@ -68,10 +67,6 @@
   width: calc(300% + 1.3px);
   height: 252px;
   transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-left .shape-fill {
-  fill: #0096ff;
 }
 
 /* Education */
@@ -93,10 +88,6 @@
   height: 404px;
 }
 
-.custom-shape-divider-top-1666871497 .shape-fill {
-  fill: #0096ff;
-}
-
 /* Skills */
 .custom-shape-divider-top-skills {
   position: absolute;
@@ -115,10 +106,6 @@
   height: 228px;
 }
 
-.custom-shape-divider-top-skills .shape-fill {
-  fill: #5800ff;
-}
-
 /* Footer */
 
 .custom-shape-divider-bottom-1666887528 {
@@ -135,8 +122,4 @@
   display: block;
   width: calc(100% + 1.3px);
   height: 121px;
-}
-
-.custom-shape-divider-bottom-1666887528 .shape-fill {
-  fill: #5800ff;
 }

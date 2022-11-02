@@ -9,6 +9,8 @@ module.exports = {
       third: "#00D7FF",
       fourth: "#72FFFF",
       swhite: "#ffffff",
+      dfirst: "#142850",
+      dsecond: "#1363DF",
     },
     fontFamily: {
       Montserrat: "Montserrat",

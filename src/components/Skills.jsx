@@ -15,7 +15,7 @@ import { FaGitAlt } from "react-icons/fa";
 
 export default function Skills() {
   return (
-    <div className="relative min-h-fit bg-second py-20">
+    <div className="relative min-h-fit bg-second dark:bg-dsecond py-20">
       <TopWave />
       <div className="container mx-auto relative px-4">
         <h1 className="text-center sm:text-left font-Poppins py-16 text-5xl uppercase font-bold relative text-swhite">

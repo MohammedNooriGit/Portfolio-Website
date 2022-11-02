@@ -4,7 +4,7 @@ import { SippingCoffee } from "./Blob";
 
 export default function Projects() {
   return (
-    <div className="relative min-h-[900px] w-full bg-second pb-20">
+    <div className="relative min-h-[900px] w-full bg-second dark:bg-dsecond pb-20">
       <SippingCoffee />
       <div className="container mx-auto relative px-4">
         <h1 className="text-center sm:text-left font-Poppins py-16 text-5xl uppercase font-bold relative text-swhite">
