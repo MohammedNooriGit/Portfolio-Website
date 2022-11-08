@@ -47,7 +47,7 @@ export default function Education() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           variants={cardAnimate}
-          className="flex flex-col flex-nowrap gap-6 items-center w-[300px] bg-swhite p-6 rounded-3xl text-[#000] h-fit"
+          className="flex flex-col flex-nowrap gap-6 items-center w-[300px] bg-swhite p-6 rounded-3xl text-[#000]"
         >
           <Avatar url={odu} />
           <h1 className="text-xl sm:text-2xl font-Poppins">
@@ -62,7 +62,7 @@ export default function Education() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           variants={cardAnimate}
-          className="flex flex-col flex-nowrap gap-6 items-center w-[300px] bg-swhite p-6 rounded-3xl text-[#000] h-fit"
+          className="flex flex-col flex-nowrap gap-6 items-center w-[300px] bg-swhite p-6 rounded-3xl text-[#000]"
         >
           <Avatar url={pvcc} />
           <h1 className="text-xl sm:text-2xl font-Poppins">
@@ -76,7 +76,7 @@ export default function Education() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           variants={cardAnimate}
-          className="flex flex-col flex-nowrap gap-6 items-center w-[300px] bg-swhite p-6 rounded-3xl text-[#000] h-fit"
+          className="flex flex-col flex-nowrap gap-6 items-center w-[300px] bg-swhite p-6 rounded-3xl text-[#000]"
         >
           <Avatar url={udemy} />
           <h1 className="text-xl sm:text-2xl font-Poppins">Udemy</h1>

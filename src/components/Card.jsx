@@ -96,7 +96,7 @@ export default function Card() {
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
               onClick={handleClick}
-              className="h-[11.5rem] w-[11.5rem] bg-swhite rounded-[2rem]"
+              className="h-[10.5rem] w-[10.5rem] sm:h-[11.5rem] sm:w-[11.5rem] bg-swhite rounded-[2rem]"
               variants={cardAnimate}
             >
               <h1 className="flex flex-col h-full w-full justify-center text-[#000] font-Montserrat font-bold text-lg">
@@ -109,7 +109,7 @@ export default function Card() {
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
               onClick={handleClick}
-              className="h-[11.5rem] w-[11.5rem] bg-swhite rounded-[2rem]"
+              className="h-[10.5rem] w-[10.5rem] sm:h-[11.5rem] sm:w-[11.5rem] bg-swhite rounded-[2rem]"
               variants={cardAnimate}
             >
               <h1 className="flex flex-col h-full w-full justify-center text-[#000] font-Montserrat font-bold text-lg">
@@ -124,7 +124,7 @@ export default function Card() {
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
               onClick={handleClick}
-              className="h-[11.5rem] w-[11.5rem] bg-swhite rounded-[2rem]"
+              className="h-[10.5rem] w-[10.5rem] sm:h-[11.5rem] sm:w-[11.5rem] bg-swhite rounded-[2rem]"
               variants={cardAnimate}
             >
               <h1 className="flex flex-col h-full w-full justify-center text-[#000] font-Montserrat font-bold text-lg">
@@ -137,7 +137,7 @@ export default function Card() {
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
               onClick={handleClick}
-              className="h-[11.5rem] w-[11.5rem] bg-swhite rounded-[2rem]"
+              className="h-[10.5rem] w-[10.5rem] sm:h-[11.5rem] sm:w-[11.5rem] bg-swhite rounded-[2rem]"
               variants={cardAnimate}
             >
               <h1 className="flex flex-col h-full w-full justify-center text-[#000] font-Montserrat font-bold text-lg">
